@@ -1,29 +1,45 @@
-# Streamlit Chat Application
 
-A modern browser-based chat application built using Streamlit.
+# Weather Chat App
+
+A browser-based weather application built with Streamlit. This app allows users to input a city name and receive real-time weather updates.
 
 ## Features
-- Interactive and responsive chat interface
-- Minimalist and modern design
-- Simple chatbot functionality (customizable)
 
-## How to Run
-1. Clone the repository:
+- Real-time weather data using the OpenWeatherMap API
+- Clean and responsive user interface
+- Persistent chat-like interaction
+
+## Requirements
+
+- Python 3.7 or above
+- Streamlit
+- Requests
+
+## Installation
+
+1. Clone this repository:
+
    ```bash
-   git clone https://github.com/yourusername/streamlit-chat-app.git
+   git clone https://github.com/your-repository/weather-chat-app.git
+   cd weather-chat-app
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd streamlit-chat-app
-   ```
-3. Install dependencies:
+
+2. Install the required dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the application:
+
+3. Run the app:
+
    ```bash
-   streamlit run app.py
+   streamlit run WeatherApp.py
    ```
 
-## Customization
-- Edit `app.py` to modify chatbot responses or style.
+## Configuration
+
+Replace `your_openweathermap_api_key` in the `WeatherApp.py` file with your OpenWeatherMap API key.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
